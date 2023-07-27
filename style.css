@@ -299,16 +299,16 @@ button:hover{
         padding: 10px 0px;
     }
     .image{
-        padding: 100px 0px;
+        padding: 100px 20px;
     }
     .box{
-        padding: 40px 0px;
+        padding: 40px 20px;
     }
     .box1{
-        padding: 50px 10px 40px 0px;
+        padding: 50px 20px 40px 20px;
     }
     .bottom{
-        padding: 20px 0;
+        padding: 20px 20px;
     }
     .bottom1,.bottom2,.bottom3{
         padding: 10px;
@@ -343,7 +343,7 @@ button:hover{
         word-spacing: 0;
     }
 }
-@media (max-width:763px){
+@media (max-width:782px){
     .list{
         font-size: 16px;
     }
@@ -357,9 +357,12 @@ button:hover{
         padding: 10px;
     }
 }
-@media (max-width:721px){
+@media (max-width:736px){
     .bottom{
         padding: 0;
+    }
+    .li{
+        padding: 8px;
     }
 }
 @media (max-width:715px){
@@ -374,7 +377,7 @@ button:hover{
         padding: 7px;
     }
 }
-@media (max-width:663px){
+@media (max-width:682px){
     .logo{
         width: 30%;
     }
@@ -424,7 +427,12 @@ button:hover{
         font-size: 16px;
     }
 }
-@media (max-width:537px){
+@media (max-width:564px){
+    .li{
+        font-size: 14px;
+    }
+}
+@media (max-width:546px){
     .logo img{
         width: 100%;
     }
@@ -435,7 +443,12 @@ button:hover{
         font-size: 10px;
     }
 }
-@media (max-width:479px){
+@media (max-width:530px){
+    .li{
+        font-size: 13px;
+    }
+}
+@media (max-width:498px){
     .logo{
         width: 20%;
     }
@@ -446,25 +459,29 @@ button:hover{
         width: 80%;
         margin-top: 3px;
     }
-    .right-side{
-        padding: 15px;
-    }
 }
-@media (max-width:450px){
+@media (max-width:452px){
     .main2{
         padding: 5px;
     }
     .list{
-        font-size: 12px;
         margin-left: 20px;
     }
+    .li{
+        font-size: 12px;
+    }
 }
-@media (max-width:410px){
-    .list{
+@media (max-width:430px){
+    .li{
+        padding: 3px;
+    }
+}
+@media (max-width:400px){
+    .li{
         font-size: 10px;
     }
 }
-@media (max-width:380px){
+@media (max-width:398px){
     .main2{
         font-size: 9px;
     }
